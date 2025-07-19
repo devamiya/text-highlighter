@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: x-large;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  /* background-color: yellowgreen; */
+  height: 70vh;
+}
+
+.toolbar {
+  margin-bottom: 10px;
+}
+
+.color-btn {
+  padding: 6px 12px;
+  margin-right: 8px;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  border-radius: 4px;
+  font-size: large;
+}
+
+.editor {
+  min-height: 150px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  outline: none;
+  text-align: left;
+  width: 800px;
+  height: 300px;
+  font-family: Trebuchet MS, Helvetica Neue, Helvetica, Tahoma, sans-serif;
+}
