@@ -1,7 +1,7 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  font-size: x-large;
+  font-size: large;
 }
 
 .container {
@@ -26,16 +26,20 @@
   cursor: pointer;
   color: #000;
   border-radius: 4px;
-  font-size: large;
 }
 
 .editor {
   min-height: 150px;
+  width: 700px;
   border: 1px solid #ccc;
   padding: 10px;
   outline: none;
   text-align: left;
-  width: 800px;
-  height: 300px;
   font-family: Trebuchet MS, Helvetica Neue, Helvetica, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .editor {
+    width: 300px;
+  }
 }

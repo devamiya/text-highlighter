@@ -24,9 +24,9 @@ const ToolBar = ({ toolBarStyles, handleHighlight, clearHighlights }) => {
                     </button>
                 ))
             } */}
-      <button onClick={clearHighlights} className="color-btn">
-        CLEAR
-      </button>
+      {/* <button onClick={clearHighlights} className="color-btn"> */}
+      {/* CLEAR
+      </button> */}
     </div>
   );
 };
